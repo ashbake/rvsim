@@ -1,0 +1,18 @@
+================================================================================
+Title: A High-Resolution Atlas of Uranium-Neon in the H Band 
+Authors: Redman S.L., Ycas G.G., Terrien R., Mahadevan S., Ramsey L.W., 
+         Bender C.F., Osterman S.N., Diddams S.A., Quinlan F., Lawler J.E.,
+         Nave G. 
+================================================================================
+Description of contents: This package contains two FITS files. "une_wave.fits" 
+    is the wavelength scale of the spectrum, "une_spec.fits". Both files have 
+    the same dimensions, so plotting the spectrum vs. the wavelenth will 
+    reproduce the combined extracted atlas spectrum.
+
+System requirements: ds9 can be used to view these files, but a program that 
+    can read FITS files (e.g.,readfits.pro for IDL) would be best.
+
+Additional comments: The resolution of this spectrum is approximately
+    50,000 (R = lambda / delta lambda).
+
+================================================================================
