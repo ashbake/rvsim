@@ -88,7 +88,7 @@ def get_rv_err_ord(dfreq,snr,rn,wavbounds,R=100000,ploton=False):
 
 	output:
 	------
-	dv_order: the rv precision per order
+	dv_order: the rv precision for the order given
 
 	"""
 	dlam =np.mean(wavbounds)/R/3
